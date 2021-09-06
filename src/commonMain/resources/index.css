@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.item-list li.item.editing .view {
+    display: none;
+}
+
+.item-list li.item .edit {
+    display: none;
+}
+
+.item-list li.item.editing .edit {
+    display: block;
+}
